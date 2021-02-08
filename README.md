@@ -64,7 +64,7 @@ User can add, delete, edit and view tasks in the app. When adding a task user ca
 ## Getting Started
 You can use the app in Heroku: https://tamk-4a00ez62-3002-group24.herokuapp.com/
 
-Or you can get a local copy up and running follow these steps.
+Or you can get a local copy up and running by following these steps.
 
 ### Prerequisites
 
