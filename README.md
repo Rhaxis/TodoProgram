@@ -62,8 +62,9 @@ User can add, delete, edit and view tasks in the app. When adding a task user ca
 
 <!-- GETTING STARTED -->
 ## Getting Started
+You can use the app in Heroku: https://tamk-4a00ez62-3002-group24.herokuapp.com/
 
-To get a local copy up and running follow these steps.
+Or you can get a local copy up and running follow these steps.
 
 ### Prerequisites
 
@@ -119,12 +120,12 @@ To get a local copy up and running follow these steps.
    ```
 10. Edit database/herokuconfig.js file to match your own database:
    ```sh 
-  module.exports = {
-  host: your_database_url,
-  user: your_username,
-  password: your_password,
-  database: your_database, 
-  };
+   module.exports = {
+   host: your_database_url,
+   user: your_username,
+   password: your_password,
+   database: your_database, 
+   };
    ```
 11. Move to project root and start the app:
    ```sh
