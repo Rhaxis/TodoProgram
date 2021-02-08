@@ -98,11 +98,11 @@ Or you can get a local copy up and running by following these steps.
 
    const API_URL = "http://localhost:8080/api"
    ```
-7. Create a frontend build:
+6. Create a frontend build:
    ```sh
    npm run build
    ```
-8. Login to your SQL database and create a table:
+7. Login to your SQL database and create a table:
    ```sh
    CREATE TABLE todos (
    id int(11) NOT NULL AUTO_INCREMENT,
@@ -114,11 +114,11 @@ Or you can get a local copy up and running by following these steps.
    PRIMARY KEY (id)
    );
    ```
-9. Insert data into your database:
+8. Insert data into your database:
    ```sh
    INSERT INTO todos(name, is_done, priority, deadline) VALUES("Do the dishes", 0, 5, "2020-12-31");
    ```
-10. Edit database/herokuconfig.js file to match your own database:
+9. Edit database/herokuconfig.js file to match your own database:
    ```sh 
    module.exports = {
    host: your_database_url,
@@ -127,11 +127,11 @@ Or you can get a local copy up and running by following these steps.
    database: your_database, 
    };
    ```
-11. Move to project root and start the app:
+10. Move to project root and start the app:
    ```sh
    npm start
    ```
-12. Open your browser and enter http://localhost:8080/
+11. Open your browser and enter http://localhost:8080/
 
 
 
