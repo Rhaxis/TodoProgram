@@ -88,14 +88,14 @@ To get a local copy up and running follow these steps.
    ```
 4. Move to frontend directory, install modules:
    ```sh
-  cd todo-front
-  npm install
+   cd todo-front
+   npm install
    ```
 5. Modify API_URL in todo-front/src/APIFunctions.js:
    ```sh
-  import axios from "axios"
+   import axios from "axios"
 
-  const API_URL = "http://localhost:8080/api"
+   const API_URL = "http://localhost:8080/api"
    ```
 7. Create a frontend build:
    ```sh
@@ -103,15 +103,15 @@ To get a local copy up and running follow these steps.
    ```
 8. Login to your SQL database and create a table:
    ```sh
-  CREATE TABLE todos (
-  id int(11) NOT NULL AUTO_INCREMENT,
-  name varchar(50) DEFAULT NULL,
-  is_done tinyint(1) NOT NULL DEFAULT '0',
-  priority int(11) NOT NULL DEFAULT '0',
-  date_created timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  deadline date DEFAULT NULL,
-  PRIMARY KEY (id)
-  );
+   CREATE TABLE todos (
+   id int(11) NOT NULL AUTO_INCREMENT,
+   name varchar(50) DEFAULT NULL,
+   is_done tinyint(1) NOT NULL DEFAULT '0',
+   priority int(11) NOT NULL DEFAULT '0',
+   date_created timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+   deadline date DEFAULT NULL,
+   PRIMARY KEY (id)
+   );
    ```
 9. Insert data into your database:
    ```sh
