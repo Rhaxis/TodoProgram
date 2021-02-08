@@ -2,7 +2,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">TicTacToe</h3>
+  <h3 align="center">ToDo Application</h3>
 
   <p align="center">
     Web based ToDo application
@@ -67,9 +67,9 @@ To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
-* Java
+* NodeJS
   ```sh
-  https://www.java.com/en/download/
+  https://nodejs.org/en/
   ```
 
 ### Installation
