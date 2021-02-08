@@ -128,9 +128,9 @@ Or you can get a local copy up and running by following these steps.
    };
    ```
 10. Move to project root and start the app:
-   ```sh
-   npm start
-   ```
+    ```sh
+    npm start
+    ```
 11. Open your browser and enter http://localhost:8080/
 
 
