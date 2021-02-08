@@ -41,7 +41,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<img src="Screenshot.png" alt="Screenshot" width="620" height="824">
+<img src="screenshot.png" alt="Screenshot" width="620" height="824">
 
 This program was done as a project work for the React and NodeJS course. It has a database that stores all the inputs and the whole project is deployed to Heroku.
 User can add, delete, edit and view tasks in the app. When adding a task user can determine task name, priority and expiration date.
